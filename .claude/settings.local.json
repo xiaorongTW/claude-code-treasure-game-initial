@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(pkill -f \"vite\")",
+      "Bash(npm install *)",
+      "Bash(npm rebuild *)",
+      "Bash(timeout 8 npx tsx server/index.ts)",
+      "Bash(node *)",
+      "Bash(curl -s http://localhost:3001/api/auth/signup -H \"Content-Type: application/json\" -d '{\"username\":\"x\",\"password\":\"x\"}')",
+      "Bash(pkill -f \"tsx watch server/index.ts\")",
+      "Bash(curl -s http://localhost:3000/)",
+      "Bash(curl -s http://localhost:3001/api/auth/signin -H \"Content-Type: application/json\" -d '{\"username\":\"x\",\"password\":\"x\"}')",
+      "Bash(pkill -f \"concurrently\")",
+      "Bash(vercel --version)",
+      "Bash(vercel env *)",
+      "Bash(openssl rand *)",
+      "Bash(vercel *)",
+      "Bash(git *)",
+      "Bash(lsof -ti:3000,3001)",
+      "Bash(xargs kill *)",
+      "Bash(brew --version)",
+      "Bash(brew install *)",
+      "Bash(gh auth *)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(gh repo *)"
+    ]
+  }
+}
