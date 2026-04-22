@@ -24,7 +24,8 @@
       "Bash(gh auth *)",
       "Bash(ssh -T git@github.com)",
       "Bash(echo \"exit: $?\")",
-      "Bash(gh repo *)"
+      "Bash(gh repo *)",
+      "Bash(gh api *)"
     ]
   }
 }
